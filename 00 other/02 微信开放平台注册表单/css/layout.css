@@ -1,0 +1,54 @@
+@charset "utf-8";
+/*!
+ * @名称：layout.css
+ * @功能：自定义样式
+ * @作者：haibao
+ * @日期：2014-05-22
+ */
+.w960 {width: 960px;margin: 0 auto;}
+.w330 {width: 330px;margin: 0 auto;}
+.mt10 {margin-top: 10px;}
+.mt20 {margin-top: 20px;}
+.c7b {color: #7B7B7B;}
+.c46 {color: #4677BD;}
+.f16 {font-size: 16px;}
+
+/* header */
+#loginBar {background-color: #2B2B2B;line-height: 36px;}
+#loginBar a {color:#707070;}
+.sp {color:#707070;margin: 0 2px;}
+#headBox {background-color: #525255;}
+#navs a {color: #EBEBEB;font-size: 18px;line-height: 60px;display: inline-block;margin-left: 2em;}
+#navs a.active,#navs a:hover {text-decoration: none;color: #96E443;}
+
+/* container */
+.container {border: 1px solid #C5C5C5;border-radius: 2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;box-shadow: 0 0 3px #ccc;-webkit-box-shadow: 0 0 3px #ccc;}
+#processor {background-color: #565656;padding: 15px 70px;position: relative;}
+#step1 {display: block;}
+.processorBox li {float: left;width:33.333%;}
+.step_inner {color: #FFFFFF;text-align: center;width: 100px;margin: 0 auto;}
+.step_line {width: 720px;background-color: #9E9F9F;height: 6px;position: absolute;top: 50%;left: 50%;margin: -18px auto auto -360px;z-index: 1;}
+.processorBox li .icon_step {width: 36px;height: 36px;line-height: 36px;display: inline-block;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;color: #fff;font-size: 18px;text-align: center;background-color: #A4A4A4;position: relative;z-index: 2;}
+.processorBox li.current .icon_step {background-color: #64BD2E;}
+.processorBox h4 {color: #fff;margin-top: 5px;}
+.processorBox li.current h4 {color: #64BD2E;}
+.content {background-color: #ffffff;padding: 45px 50px;}
+.frm_control_group {padding-bottom:25px;}
+.frm_label {width: 6em;float: left;margin-right: 1em;line-height: 35px;}
+.frm_controls {display: table-cell;float: none;vertical-align: top;width: auto;}
+.frm_input,.frm_textarea {width: 300px;outline: 0 none;border: 1px solid #C5C5C5;height: 35px;line-height: 35px;vertical-align: middle;border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06) inset;-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06) inset;padding: 0 10px;}
+.frm_input:focus,.frm_textarea:focus {border: 1px solid #4677BD;box-shadow: 0 0 2px #ddd;-webkit-box-shadow: 0 0 3px #ddd;}
+.frm_tips {color: #C1C2C3;padding-top: 4px;width: 320px;}
+.verifycode .frm_input {width: 98px;}
+.verifycode img {height: 37px;vertical-align: middle;}
+.changeVerifyCode {color: #4677BD;margin-left: 3px;}
+.toolBar {margin-top: 15px;padding: 25px 0 0 98px;border-top: 1px solid #D2D2D2;box-shadow: 0 1px 0 #FBFBFB inset;-webkit-box-shadow: 0 1px 0 #FBFBFB inset;}
+.btn {border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;cursor: pointer;display: inline-block;font-size: 14px;height: 35px;line-height: 35px;overflow: visible;padding: 0 36px;text-align: center;text-decoration: none;vertical-align: middle;}
+.btn_primary {background-color: #4AAF33;color: #FFFFFF;border: 1px solid #3EAC27;}
+.btn_default {background-color: #F1F1F1;color: #000000;border: 1px solid #D1D1D1;}
+.btn:hover {text-decoration: none;}
+.phoneYzm {width: 145px;}
+
+/* footer */
+#footer {padding: 12px 0 30px 0;color: #9E9F9F;}
+.footNavs {color: #9E9F9F;}
