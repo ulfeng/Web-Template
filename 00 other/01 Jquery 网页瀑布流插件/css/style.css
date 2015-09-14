@@ -1,0 +1,28 @@
+﻿@charset "utf-8";
+/* 全局样式 */
+body, ul, dl, dd, dt, ol, li, p, h1, h2, h3, h4, h5, h6, textarea, form, select, fieldset, table, td, div, input {margin:0;padding:0;-webkit-text-size-adjust: none}
+h1, h2, h3, h4, h5, h6{font-size:12px;font-weight:normal;}
+body>div, form>div {margin:0 auto;}
+div {text-align:left;}
+a img {border:0;}
+table{border-collapse:collapse; border-spacing:0;}
+select,input,textarea{ font: 12px "宋体"; outline: none; }
+body { color:#333; text-align:center; font: 12px "宋体"; }
+ul, ol, li {list-style-type:none;vertical-align:0;}
+a {outline-style:none;color:#333;text-decoration:none;}
+a:hover { color: #0D5B9D; text-decoration: underline; }
+a, area {blr:expression(this.onFocus=this.blur())}
+:focus {-moz-outline-style: none;}
+.clear {clear:both;height:0; overflow:hidden; visibility:hidden}
+.hidden {display:none;}
+.block {display:block;}
+.fl{float:left;}
+.fr{float:right;}
+.qx_t1 { background:#EBEBEB; margin: 0px auto 15px; height: 32px; width: 593px; padding-left: 365px; font: 24px/28px "微软雅黑"; color: #333; }
+.qx_list{width:720px; overflow:hidden; margin:0 auto}
+.qx_list ul li { background: #FFF; padding: 9px 8px; border: 1px solid #E5E5E5; float: left; width: 212px; margin: 0px 10px 10px 0px; }
+.qx_picBox { border: 1px solid #E9E9E9; height: 71px; width: 210px; margin-bottom: 8px; }
+.qx_txt { font-size: 14px; line-height: 24px; }
+.qx_txt p{margin-bottom: 8px; padding-left: 13px;}
+.qx_list ul { width: 980px; }
+

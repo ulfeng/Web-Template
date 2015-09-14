@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery网页瀑布流插件masonry - 站长素材</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<div style="background:#FFF; padding:20px 0">
+<!--效果开始-->
+<div class="qx_list" id="container">
+<ul>
+ <li class="box">
+  <div class="qx_picBox"><img src="images/qx_pic1.jpg" width="210" height="71" /></div>
+  <div class="qx_txt">
+   <p>
+   网站建设1群<br />
+   群号：12345678
+   </p>
+  </div>
+ </li>
+ <li class="box">
+  <div class="qx_picBox"><img src="images/qx_pic2.jpg" width="210" height="71" /></div>
+  <div class="qx_txt">
+   <p>
+   网站建设2群<br />
+   群号：12345678
+   </p>
+   <p>
+   北京SEO2群<br />
+   群号：12345678
+   </p>
+   <p>
+   北京网页设计2群<br />
+   群号：12345678
+   </p>
+   <p>
+   北京网页制作2群<br />
+   群号：12345678
+   </p>
+  </div>
+ </li>
+ <li class="box">
+  <div class="qx_picBox"><img src="images/qx_pic3.jpg" width="210" height="71" /></div>
+  <div class="qx_txt">
+   <p>
+   网页特效1群<br />
+   群号：12345678
+   </p>
+   <p>
+   网页素材2群<br />
+   群号：12345678
+   </p>
+   <p>
+   网站开发2群<br />
+   群号：12345678
+   </p>
+  </div>
+ </li>
+ <li class="box">
+  <div class="qx_picBox"><img src="images/qx_pic4.jpg" width="210" height="71" /></div>
+  <div class="qx_txt">
+   <p>
+   网站建设2群<br />
+   群号：12345678
+   </p>
+   <p>
+   北京SEO2群<br />
+   群号：12345678
+   </p>
+  </div>
+ </li>
+ <li class="box">
+  <div class="qx_picBox"><img src="images/qx_pic5.jpg" width="210" height="71" /></div>
+  <div class="qx_txt">
+   <p>
+   北京网页制作2群<br />
+   群号：12345678
+   </p>
+  </div>
+ </li>
+ <li class="box">
+  <div class="qx_picBox"><img src="images/qx_pic6.jpg" width="210" height="71" /></div>
+  <div class="qx_txt">
+   <p>
+   北京网页设计2群<br />
+   群号：12345678
+   </p>
+   <p>
+   北京网页制作2群<br />
+   群号：12345678
+   </p>
+  </div>
+ </li>
+ <li class="box">
+  <div class="qx_picBox"><img src="images/qx_pic7.jpg" width="210" height="71" /></div>
+  <div class="qx_txt">
+   <p>
+   网站建设2群<br />
+   群号：12345678
+   </p>
+   <p>
+   北京SEO2群<br />
+   群号：12345678
+   </p>
+   <p>
+   北京网页设计2群<br />
+   群号：12345678
+   </p>
+   <p>
+   北京网页制作2群<br />
+   群号：12345678
+   </p>
+  </div>
+ </li>
+ <li class="box">
+  <div class="qx_picBox"><img src="images/qx_pic8.jpg" width="210" height="71" /></div>
+  <div class="qx_txt">
+   <p>
+   网站建设2群<br />
+   群号：12345678
+   </p>
+  </div>
+ </li>
+ <li class="box">
+  <div class="qx_picBox"><img src="images/qx_pic9.jpg" width="210" height="71" /></div>
+  <div class="qx_txt">
+   <p>
+   北京网页设计2群<br />
+   群号：12345678
+   </p>
+   <p>
+   北京网页制作2群<br />
+   群号：12345678
+   </p>
+  </div>
+ </li>
+ <li class="box">
+  <div class="qx_picBox"><img src="images/qx_pic10.jpg" width="210" height="71" /></div>
+  <div class="qx_txt">
+   <p>
+   北京SEO2群<br />
+   群号：12345678
+   </p>
+   <p>
+   北京网页设计2群<br />
+   群号：12345678
+   </p>
+  </div>
+ </li>
+ <li class="box">
+  <div class="qx_picBox"><img src="images/qx_pic11.jpg" width="210" height="71" /></div>
+  <div class="qx_txt">
+   <p>
+   北京网页设计2群<br />
+   群号：12345678
+   </p>
+   <p>
+   北京网页制作2群<br />
+   群号：12345678
+   </p>
+  </div>
+ </li>
+ <li class="box">
+  <div class="qx_picBox"><img src="images/qx_pic12.jpg" width="210" height="71" /></div>
+  <div class="qx_txt">
+   <p>
+   网站建设2群<br />
+   群号：12345678
+   </p>
+   <p>
+   北京SEO2群<br />
+   群号：12345678
+   </p>
+  </div>
+ </li>
+</ul>
+<div class="clear"></div>
+</div>
+<script type="text/javascript" src="js/jquery.masonry.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var $container = $('#container');
+	$container.imagesLoaded(function(){
+		$container.masonry({
+			itemSelector: '.box',
+			columnWidth: 12 //每两列之间的间隙为5像素
+		});
+	});
+});
+</script>
+<!--End-->
+</div>
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<p>适用浏览器：IE8、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. </p>
+<p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
+</div>
+</body>
+</html>
